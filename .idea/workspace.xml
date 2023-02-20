@@ -64,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JAR Application.app-order.jar">
+  <component name="RunManager" selected="Gradle.CallbackTest.test">
     <configuration name="CallbackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,9 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CallbackTest.test" />
         <item itemvalue="JAR Application.app-order.jar" />
         <item itemvalue="Gradle.CallbackTest" />
-        <item itemvalue="Gradle.CallbackTest.test" />
       </list>
     </recent_temporary>
   </component>

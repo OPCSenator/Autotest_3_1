@@ -8,11 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public class CallbackTest {
 
@@ -21,7 +18,6 @@ public class CallbackTest {
     @BeforeAll
     static void setUpAll(){
         WebDriverManager.chromedriver().setup();
-        //System.setProperty("webdriver.chrome.driver", "drivers/chrome/chromedriver.exe");
     }
 
     @BeforeEach
@@ -31,7 +27,6 @@ public class CallbackTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
         driver = new ChromeDriver(options);
-
     }
 
     @AfterEach
@@ -44,11 +39,11 @@ public class CallbackTest {
         void test() {
         driver.get("http://localhost:9999/");
         List <WebElement> list = driver.findElements(By.className("input__control"));
-        list.get(0).sendKeys("Иван Иванов");
+        list.get(0).sendKeys("Иван Иванович-Иванов");
         list.get(1).sendKeys("+01234567890");
         driver.findElement(By.className("checkbox")).click();
         driver.findElement(By.className("button")).click();
-        String text = driver.findElement(By.className("paragraph")).getText();
+        String text = driver.findElement(By.className("Success_successBlock__2L3Cw")).getText();
         assertEquals("Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.", text.trim());
         }
     }

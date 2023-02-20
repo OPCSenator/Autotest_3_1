@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f5507963-e4dd-490d-960c-86a4079c11dd" name="Changes" comment="Добавил Аппвеер">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chrome/chromedriver.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CallbackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CallbackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +58,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Gradle.CallbackTest">
+}</component>
+  <component name="RunManager" selected="JAR Application.app-order.jar">
     <configuration name="CallbackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CallbackTest" />
         <item itemvalue="JAR Application.app-order.jar" />
+        <item itemvalue="Gradle.CallbackTest" />
         <item itemvalue="Gradle.CallbackTest.test" />
       </list>
     </recent_temporary>
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676724989688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил Аппвеер">
+      <created>1676752661584</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676752661584</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +185,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/CallbackTest.java</url>
-          <line>42</line>
+          <line>38</line>
           <properties class="CallbackTest" method="test">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
